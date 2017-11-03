@@ -1,0 +1,15 @@
+{
+  "name": "skribblio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "thepapanoob <dicksinmyanus@hotmail.de>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "multer": "^1.3.0"
+  }
+}
