@@ -107,7 +107,7 @@ class Cheat {
     this.cheatWindow.style =
       'position: fixed; top: 0; right: 0; background-color: #3C3C3C; width: 250px; padding: 0 25px; color: #F0F;';
     this.cheatWindow.innerHTML =
-      '<h2 style="text-align: center;">BobRossHook</h2><span>The word could be one of:</span><ul id="cheatWords" style="padding-left: 25px;"><li>test</li><li>test</li></ul>';
+      '<h2 style="text-align: center;">BobRossHook</h2><span>The word could be one of:</span><ul id="cheatWords" style="padding-left: 25px;"></ul>';
     document.body.appendChild(this.cheatWindow);
     this.cheatWordContainer = document.getElementById('cheatWords');
   }
@@ -123,4 +123,5 @@ class Cheat {
   }
 }
 
+// Change the server URI and turn on / off the DRUCKBETANKUNG's modus
 let cheato = new Cheat('http://localhost:3000/', false);
