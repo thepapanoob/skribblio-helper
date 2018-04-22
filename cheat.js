@@ -23,9 +23,8 @@ class Cheat {
           let answers = JSON.parse(event.target.responseText);
           console.log(`it can be one of the following words: ${answers}`);
 
-          let listItems = "";
-          if (answers[0] !== "")
-          {
+          let listItems = '';
+          if (answers[0] !== '') {
             answers.forEach(elem => {
               listItems += `<li>${elem}</li>`;
             });
@@ -124,4 +123,4 @@ class Cheat {
 }
 
 // Change the server URI and turn on / off the DRUCKBETANKUNG's modus
-let cheato = new Cheat('http://localhost:3000/', false);
+let cheato = new Cheat('https://localhost:3000/', false);
