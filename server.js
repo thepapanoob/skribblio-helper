@@ -6,7 +6,7 @@ const path = require('path');
 const app = express();
 
 // turn on DRUCKBETANKUNG to start the learning process (dont forget to do that for your bots too...)
-const DRUCKBETANKUNG = false;
+const DRUCKBETANKUNG = true;
 const savePath = path.resolve(__dirname, 'wordlist.json');
 
 const sslOptions = {
